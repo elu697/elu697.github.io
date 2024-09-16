@@ -1,415 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>elu697 - iOS Enginner </title>
-<meta name="description" content="">
-<meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>elu697 - iOS Enginner</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<!-- Favicons
+    <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/apple-touch-icon-114x114.png"
+    />
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome/css/font-awesome.css"
+    />
 
-<!-- Stylesheet
+    <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700,900,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="intro-text">
-          <h1>Hello, I'm <span class="name">elu697</span></h1>
-          <p>iOS Engineer</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">自分について</a> </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">elu697</a> </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">自己紹介</a> </li>
-          <li> <a class="page-scroll" href="#skills">スキル</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">やったもの</a> </li>
-          <li> <a class="page-scroll" href="#resume">これまで</a> </li>
-          <li> <a class="page-scroll" href="#contact">連絡先</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>自分ついて</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="https://avatars2.githubusercontent.com/u/20719474" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="text-center">
-          <p>性別: 男</p>
-          <p>誕生日: 1999年9月4日</p>
-          <p>性格: まったり前向き</p>
-          <p>興味あること: iOS, AR/VR/MR, セキュリティ, インフラ</p>
-        </div>
-        <div class="about-text">
-          <p>高専に入ってからプログラミングを初めて，高専プロコンに出場すべくiOSアプリ開発を触ったところハマり競技プログラミングでもSwiftを使うようになりました．現在は大学へ編入しプログラミング技術だけでなく計算機科学を勉強しています．</p>
-          <!-- <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>できること</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
-        <h4>Swift</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-        <h4>Objective-C</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
-        <h4>Python</h4>
-      </div>
-
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-        <h4>C/C++</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>Git</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
-        <h4>GCP</h4>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="section-title center">
-        <h2>経験年数</h2>
-        <hr>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
-        <div class="achievement-box"> <span class="count">4</span>
-          <h4>Swift</h4>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="100ms">
-        <div class="achievement-box"> <span class="count">0.5</span>
-          <h4>Objective-C</h4>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
-        <div class="achievement-box"> <span class="count">4</span>
-          <h4>Python</h4>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="350ms">
-        <div class="achievement-box"> <span class="count">3</span>
-          <h4>C/C++</h4>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
-        <div class="achievement-box"> <span class="count">4</span>
-          <h4>Git</h4>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="100ms">
-        <div class="achievement-box"> <span class="count">1.0</span>
-          <h4>GCP</h4>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>やったもの</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">全て</a></li>
-            <li><a href="#" data-filter=".activity">活動</a></li>
-            <li><a href="#" data-filter=".app">アプリ</a></li>
-            <li><a href="#" data-filter=".intern">インターン</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-
-        <div class="col-sm-6 col-md-3 col-lg-3 activity app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/PROCON2016.PNG" title="本戦へ出場し,CO2排出量削減を促すアプリ'LifeCycring'の開発を担当" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>高専プロコン2016</h4>
-                <small>課題部門出場</small> </div>
-              <img src="https://pbs.twimg.com/profile_images/1012826131504877568/5qPfCXN4_400x400.jpg" class="img-responsive" alt="高専プロコン2016"> </a> </div>
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Header -->
+    <header id="header">
+      <div class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <h1>Hello, I'm <span class="name">elu697</span></h1>
+              <p>iOS Engineer</p>
+              <a href="#about" class="btn btn-default btn-lg page-scroll"
+                >自分について</a
+              >
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 activity app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/PROCON2017.jpg" title="最良優先探索を用いたパズルを解くiOSアプリを開発" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>高専プロコン2017</h4>
-                <small>競技部門出場</small> </div>
-              <img src="https://pbs.twimg.com/profile_images/1012826131504877568/5qPfCXN4_400x400.jpg" class="img-responsive" alt="高専プロコン2016"> </a> </div>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <div id="nav">
+      <nav class="navbar navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-main-collapse"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">elu697</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse navbar-right navbar-main-collapse"
+          >
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden"><a href="#page-top"></a></li>
+              <li><a class="page-scroll" href="#about">自己紹介</a></li>
+              <li><a class="page-scroll" href="#skills">スキル</a></li>
+              <li><a class="page-scroll" href="#portfolio">やったもの</a></li>
+              <li><a class="page-scroll" href="#resume">これまで</a></li>
+              <li><a class="page-scroll" href="#contact">連絡先</a></li>
+            </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 activity">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://sckosen2016.kochi-ct.ac.jp" >
-              <div class="hover-text">
-                <h4>高専セキュコン2016</h4>
-                <small>チームSP2LC-Aで参加し...順位を覚えていません(初心者だっためあんまり良くなかった）</small> </div>
-              <img src="http://sckosen2016.kochi-ct.ac.jp/img/logo-sp.png" class="img-responsive" alt="高専セキュコン2016"> </a> </div>
+      </nav>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>自分ついて</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img
+              src="https://avatars2.githubusercontent.com/u/20719474"
+              class="img-responsive"
+            />
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <div class="text-center">
+              <p>性別: 男</p>
+              <p>誕生日: 1999年9月4日</p>
+              <p>性格: まったり前向き</p>
+              <p>興味あること: iOS, AR/VR/MR, セキュリティ, インフラ</p>
+            </div>
+            <div class="about-text">
+              <p>
+                高専に入ってからプログラミングを初めて，高専プロコンに出場すべくiOSアプリ開発を触ったところハマり競技プログラミングでもSwiftを使うようになりました．現在は大学へ編入しプログラミング技術だけでなく計算機科学を勉強しています．
+              </p>
+              <!-- <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p> -->
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 activity">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="http://sckosen2017.kisarazu.ac.jp/result.html">
-              <div class="hover-text">
-                <h4>高専セキュコン2017</h4>
-                <small>チームたまごかけごはんで参加し，35チーム中11位という結果になった</small> </div>
-              <img src="http://sckosen2017.kisarazu.ac.jp/img/subpage_header.png" class="img-responsive" alt="高専セキュコン2017"> </a> </div>
+      </div>
+    </div>
+    <!-- Skills Section -->
+    <div id="skills" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>できること</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="90">
+              <span class="percent">90</span>
+            </span>
+            <h4>Swift</h4>
+          </div>
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="65">
+              <span class="percent">65</span>
+            </span>
+            <h4>Objective-C</h4>
+          </div>
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="75">
+              <span class="percent">75</span>
+            </span>
+            <h4>Python</h4>
+          </div>
+
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="65">
+              <span class="percent">65</span>
+            </span>
+            <h4>C/C++</h4>
+          </div>
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="80">
+              <span class="percent">80</span>
+            </span>
+            <h4>Git</h4>
+          </div>
+          <div class="col-md-4 col-sm-6 skill">
+            <span class="chart" data-percent="70">
+              <span class="percent">70</span>
+            </span>
+            <h4>GCP</h4>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 intern app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://itunes.apple.com/jp/app/%E3%83%98%E3%82%A2%E3%82%A2%E3%83%AC%E3%83%B3%E3%82%B8-%E3%83%8D%E3%82%A4%E3%83%AB%E3%81%AFmyreco-up-%E3%83%9E%E3%82%A4%E3%83%AA%E3%82%B3-%E3%82%A2%E3%83%83%E3%83%97/id1035632643?mt=8">
-              <div class="hover-text">
-                <h4>株式会社Bondy</h4>
-                <small>アプリmyreco upのバグ修正や機能追加を行った</small> </div>
-              <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/36/13/3c/36133cf8-2e9b-2929-b072-72d5cf404d2e/AppIcon-1x_U007emarketing-85-220-9.png/246x0w.jpg" class="img-responsive" alt="インターン"> </a> </div>
+        <div class="row">
+          <div class="section-title center">
+            <h2>経験年数</h2>
+            <hr />
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
+            <div class="achievement-box">
+              <span class="count">4</span>
+              <h4>Swift</h4>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="100ms">
+            <div class="achievement-box">
+              <span class="count">0.5</span>
+              <h4>Objective-C</h4>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
+            <div class="achievement-box">
+              <span class="count">4</span>
+              <h4>Python</h4>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="350ms">
+            <div class="achievement-box">
+              <span class="count">3</span>
+              <h4>C/C++</h4>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="250ms">
+            <div class="achievement-box">
+              <span class="count">4</span>
+              <h4>Git</h4>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="100ms">
+            <div class="achievement-box">
+              <span class="count">1.0</span>
+              <h4>GCP</h4>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 intern app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://itunes.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%96%E3%81%8F%E3%81%96%E3%81%8F%E8%B2%AF%E3%81%BE%E3%82%8B-%E3%81%8A%E8%B2%A1%E5%B8%83%E3%81%84%E3%82%89%E3%81%9A%E3%81%AE-%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4/id1139755229?scid=su_11934">
-              <div class="hover-text">
-                <h4>楽天株式会社</h4>
-                <small>Rakuten Payの新規プロジェクトに参加し開発を行った</small> </div>
-              <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/25/fd/a1/25fda11e-c9c2-0ad5-1a7d-ee4bef89613e/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/246x0w.jpg" class="img-responsive" alt="インターン"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 intern">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://www.interstellar.co.jp/">
-              <div class="hover-text">
-                <h4>インターステラ株式会社</h4>
-                <small>新規システムの企画や設計などを行った</small> </div>
-              <img src="img/portfolio/Intern.jpg" class="img-responsive" alt="インターン"> </a> </div>
-          </div>
-        </div>
-
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Resume Section -->
-<div id="resume" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>これまで</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>やったもの</h2>
+          <hr />
+        </div>
+        <div class="categories">
+          <ul class="cat">
+            <li>
+              <ol class="type">
+                <li><a href="#" data-filter="*" class="active">全て</a></li>
+                <li><a href="#" data-filter=".activity">活動</a></li>
+                <li><a href="#" data-filter=".app">アプリ</a></li>
+                <li><a href="#" data-filter=".intern">インターン</a></li>
+              </ol>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        <div class="row">
+          <div class="portfolio-items">
+            <div class="col-sm-6 col-md-3 col-lg-3 activity app">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/PROCON2016.PNG"
+                    title="本戦へ出場し,CO2排出量削減を促すアプリ'LifeCycring'の開発を担当"
+                    rel="prettyPhoto"
+                  >
+                    <div class="hover-text">
+                      <h4>高専プロコン2016</h4>
+                      <small>課題部門出場</small>
+                    </div>
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1012826131504877568/5qPfCXN4_400x400.jpg"
+                      class="img-responsive"
+                      alt="高専プロコン2016"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 activity app">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/PROCON2017.jpg"
+                    title="最良優先探索を用いたパズルを解くiOSアプリを開発"
+                    rel="prettyPhoto"
+                  >
+                    <div class="hover-text">
+                      <h4>高専プロコン2017</h4>
+                      <small>競技部門出場</small>
+                    </div>
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1012826131504877568/5qPfCXN4_400x400.jpg"
+                      class="img-responsive"
+                      alt="高専プロコン2016"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 activity">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a href="http://sckosen2016.kochi-ct.ac.jp">
+                    <div class="hover-text">
+                      <h4>高専セキュコン2016</h4>
+                      <small
+                        >チームSP2LC-Aで参加し...順位を覚えていません(初心者だっためあんまり良くなかった）</small
+                      >
+                    </div>
+                    <img
+                      src="http://sckosen2016.kochi-ct.ac.jp/img/logo-sp.png"
+                      class="img-responsive"
+                      alt="高専セキュコン2016"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 activity">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a href="http://sckosen2017.kisarazu.ac.jp/result.html">
+                    <div class="hover-text">
+                      <h4>高専セキュコン2017</h4>
+                      <small
+                        >チームたまごかけごはんで参加し，35チーム中11位という結果になった</small
+                      >
+                    </div>
+                    <img
+                      src="http://sckosen2017.kisarazu.ac.jp/img/subpage_header.png"
+                      class="img-responsive"
+                      alt="高専セキュコン2017"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
 
-          <li>
-            <div class="timeline-image">
-              <h4>2021年3月中</h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3 class="">株式会社 Abema TV</h3>
-                <h4 class="subheading">iOS Engineer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>CA Tech JOBのインターンに参加し一ヶ月の間でUI変更のタスクをやらせてもらった</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2022年3月卒業予定<br>
-                - <br>
-                2020年 4月 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>金沢大学　理工学域</h3>
-                <h4 class="subheading">iOS Engineer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>金沢大学の理工学域へ編入し情報通信について学んでいる</p>
+            <div class="col-sm-6 col-md-3 col-lg-3 intern app">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="https://itunes.apple.com/jp/app/%E3%83%98%E3%82%A2%E3%82%A2%E3%83%AC%E3%83%B3%E3%82%B8-%E3%83%8D%E3%82%A4%E3%83%AB%E3%81%AFmyreco-up-%E3%83%9E%E3%82%A4%E3%83%AA%E3%82%B3-%E3%82%A2%E3%83%83%E3%83%97/id1035632643?mt=8"
+                  >
+                    <div class="hover-text">
+                      <h4>株式会社Bondy</h4>
+                      <small>アプリmyreco upのバグ修正や機能追加を行った</small>
+                    </div>
+                    <img
+                      src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/36/13/3c/36133cf8-2e9b-2929-b072-72d5cf404d2e/AppIcon-1x_U007emarketing-85-220-9.png/246x0w.jpg"
+                      class="img-responsive"
+                      alt="インターン"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <h4>2018年5月</h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>セキュリティマネジメント試験</h3>
-                <h4 class="subheading">capabilities</h4>
-              </div>
-              <div class="timeline-body">
-                <p>IPA:Information-technology Promotion Agency, Japan</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2018年 9月末 <br>
-                - <br>
-                2016年 8月 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>楽天株式会社</h3>
-                <h4 class="subheading">iOS Engineer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Rakuten Pay の個人間送金機能に関わる部分の開発を行った．</p>
+            <div class="col-sm-6 col-md-3 col-lg-3 intern app">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="https://itunes.apple.com/jp/app/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E3%81%96%E3%81%8F%E3%81%96%E3%81%8F%E8%B2%AF%E3%81%BE%E3%82%8B-%E3%81%8A%E8%B2%A1%E5%B8%83%E3%81%84%E3%82%89%E3%81%9A%E3%81%AE-%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4/id1139755229?scid=su_11934"
+                  >
+                    <div class="hover-text">
+                      <h4>楽天株式会社</h4>
+                      <small
+                        >Rakuten
+                        Payの新規プロジェクトに参加し開発を行った</small
+                      >
+                    </div>
+                    <img
+                      src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/25/fd/a1/25fda11e-c9c2-0ad5-1a7d-ee4bef89613e/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/246x0w.jpg"
+                      class="img-responsive"
+                      alt="インターン"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-          </li>
-
-          <li class="timeline-panel">
-            <div class="timeline-image">
-              <h4>2017年 6月 <br>
-                - <br>
-                2016年 12月 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>Interstellar株式会社</h3>
-                <h4 class="subheading">Enginner</h4>
-              </div>
-              <div class="timeline-body">
-                <p>新規案件の企画や設計，調査を行った．</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2016年 7月 <br>
-                - <br>
-                2015年 11月 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>株式会社Bondy</h3>
-                <h4 class="subheading">iOS Enginner</h4>
-              </div>
-              <div class="timeline-body">
-                <p>アプリmyreco upのバグ修正や機能追加を行った．またその他受託案件の作業の自動化バッチの作成等を行った．</p>
+            <div class="col-sm-6 col-md-3 col-lg-3 intern">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a href="https://www.interstellar.co.jp/">
+                    <div class="hover-text">
+                      <h4>インターステラ株式会社</h4>
+                      <small>新規システムの企画や設計などを行った</small>
+                    </div>
+                    <img
+                      src="img/portfolio/Intern.jpg"
+                      class="img-responsive"
+                      alt="インターン"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <h4>2020年 3月<br>
-                - <br>
-                2015年 4月 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>高専入学</h3>
-                <h4 class="subheading">Student</h4>
-              </div>
-              <div class="timeline-body">
-                <p>2年次に情報工学科の一部の学生が主体となって参加する高専プログラミングコンテストへ参加するコミュニティSP2LCという団体に所属．</p>
-              </div>
-            </div>
-          </li>
-
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>連絡先</h2>
-      <hr>
+
+    <!-- Resume Section -->
+    <div id="resume" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>これまで</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <h4>2021年3月中</h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="">株式会社 Abema TV</h3>
+                    <h4 class="subheading">iOS Engineer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      CA Tech
+                      JOBのインターンに参加し一ヶ月の間でUI変更のタスクをやらせてもらった
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>
+                    2022年3月卒業予定<br />
+                    - <br />
+                    2020年 4月
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>金沢大学　理工学域</h3>
+                    <h4 class="subheading">iOS Engineer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>金沢大学の理工学域へ編入し情報通信について学んでいる</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image">
+                  <h4>2018年5月</h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>セキュリティマネジメント試験</h3>
+                    <h4 class="subheading">capabilities</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>IPA:Information-technology Promotion Agency, Japan</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>
+                    2018年 9月末 <br />
+                    - <br />
+                    2016年 8月
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>楽天株式会社</h3>
+                    <h4 class="subheading">iOS Engineer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Rakuten Pay の個人間送金機能に関わる部分の開発を行った．
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-panel">
+                <div class="timeline-image">
+                  <h4>
+                    2017年 6月 <br />
+                    - <br />
+                    2016年 12月
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Interstellar株式会社</h3>
+                    <h4 class="subheading">Enginner</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>新規案件の企画や設計，調査を行った．</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>
+                    2016年 7月 <br />
+                    - <br />
+                    2015年 11月
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>株式会社Bondy</h3>
+                    <h4 class="subheading">iOS Enginner</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      アプリmyreco
+                      upのバグ修正や機能追加を行った．またその他受託案件の作業の自動化バッチの作成等を行った．
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image">
+                  <h4>
+                    2020年 3月<br />
+                    - <br />
+                    2015年 4月
+                  </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>高専入学</h3>
+                    <h4 class="subheading">Student</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      2年次に情報工学科の一部の学生が主体となって参加する高専プログラミングコンテストへ参加するコミュニティSP2LCという団体に所属．
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-8 col-md-offset-2">
-      <!-- <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+    <!-- Contact Section -->
+    <div id="contact" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>連絡先</h2>
+          <hr />
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <!-- <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
         <p>4321 California St,<br>
           San Francisco, CA 12345</p>
       </div> -->
-      <div class="col-md-16"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>elyou.dev@gmail.com</p>
-      </div>
-      <!-- <div class="col-md-6"> <i class="fa fa-phone fa-2x"></i>
+          <div class="col-md-16">
+            <i class="fa fa-envelope-o fa-2x"></i>
+            <p>elyou.dev@gmail.com</p>
+          </div>
+          <!-- <div class="col-md-6"> <i class="fa fa-phone fa-2x"></i>
         <p> +1 123 456 1234</p>
       </div> -->
-      <div class="clearfix"></div>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <!-- <h3>メールをおくる</h3>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <!-- <h3>メールをおくる</h3>
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
@@ -432,36 +586,49 @@
         <div id="success"></div>
         <button type="submit" class="btn btn-default">送信</button>
       </form> -->
-      <div class="social">
-        <ul>
-          <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-          <!-- <li><a href="https://twitter.com/elu697"><i class="fa fa-twitter"></i></a></li> -->
-          <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
-          <li><a href="https://github.com/elu697"><i class="fa fa-github"></i></a></li>
-          <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-          <li><a href="www.linkedin.com/in/elyou697"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+          <div class="social">
+            <ul>
+              <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+              <!-- <li><a href="https://twitter.com/elu697"><i class="fa fa-twitter"></i></a></li> -->
+              <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+              <li>
+                <a href="https://github.com/elu697"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+              <li>
+                <a href="www.linkedin.com/in/elyou697"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    <div id="footer">
+      <div class="container text-center">
+        <div class="fnav">
+          <p>
+            Copyright &copy; 2016 John Doe. Designed by
+            <a href="http://www.templatewire.com" rel="nofollow"
+              >TemplateWire</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/SmoothScroll.js"></script>
-<script type="text/javascript" src="js/easypiechart.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/jquery.counterup.js"></script>
-<script type="text/javascript" src="js/waypoints.js"></script>
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script type="text/javascript" src="js/contact_me.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-</body>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="js/waypoints.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
