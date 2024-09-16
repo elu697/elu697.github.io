@@ -323,6 +323,7 @@ ol.type li a:hover {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+	background-color: #ffffff;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
@@ -335,6 +336,7 @@ ol.type li a:hover {
 	height: 260px;
 	overflow: hidden;
 	position: relative;
+	align-self: center;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -443,7 +445,7 @@ ol.type li a:hover {
 	float: right;
 	position: relative;
 	width: 100%;
-	padding: 0 20px 0 100px;
+	padding: 0 20px 0 px;
 	text-align: left;
 }
 .timeline>li .timeline-panel:before {
@@ -669,20 +671,20 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 .timeline:before {
-	left: 50%;
+	left: 1%;
 }
 .timeline>li {
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 	min-height: 100px;
 }
 .timeline>li .timeline-panel {
 	float: left;
-	width: 41%;
+	width: 95%;
 	padding: 0 20px 20px 30px;
 	text-align: right;
 }
 .timeline>li .timeline-image {
-	left: 50%;
+	left: 1%;
 	width: 100px;
 	height: 100px;
 	margin-left: -50px;
